@@ -307,3 +307,25 @@ As ordens podem sim alterar o resultado, então teste rodando um primeiro e depo
 ### 8. Testar Se Deu Certo.
 
 Agora, peça para alguém mandar um simples "oi" para você. Caso você mesmo responda "Fala! Aqui é o bot 🚀", parabéns, está funcionando. Caso der erro, debugue sozinho ou repita os passos!
+
+### Algumas Coisas que me Ajudaram a Debugar
+
+```bash
+curl http://SEU_IP:3000
+```
+Vai verificar se o bot ta vivo
+
+```bash
+docker logs -f evolution_api
+```
+Vai mostrar para você TODOS os logs a partir da conexão da API, assim, você sabe onde pode estar o erro
+
+```bash
+curl -X GET http://localhost:8080/instance/connectionState/default \
+  -H "apikey: SUA_API_KEY"
+```
+
+Verifica se as instâncias desconectaram.
+
+
+# BOA SORTE E USE COM MODERAÇÃO
