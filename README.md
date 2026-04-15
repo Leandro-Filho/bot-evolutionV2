@@ -306,4 +306,4 @@ As ordens podem sim alterar o resultado, então teste rodando um primeiro e depo
 
 ### 8. Testar Se Deu Certo.
 
-Agora, pessa para alguém mandar um simples "oi" para você. Caso você mesmo responda "Fala! Aqui é o bot 🚀", parabéns, está funcionando. Caso der erro, debugue sozinho ou repita os passos!
+Agora, peça para alguém mandar um simples "oi" para você. Caso você mesmo responda "Fala! Aqui é o bot 🚀", parabéns, está funcionando. Caso der erro, debugue sozinho ou repita os passos!
